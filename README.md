@@ -5,8 +5,8 @@
 - Clone the repo
 
 ```
-git clone 
-cd repo
+git clone https://github.com/chavo1/akamai-provider.git
+cd akamai-provider
 vagrant up
 vagrant ssh
 sudo su -
