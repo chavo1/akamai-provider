@@ -18,5 +18,3 @@ which terraform &>/dev/null || {
 # install golang
 cd /vagrant
 ./go.sh --64
-source /root/.bashrc
-sudo ./build_akamai.sh
