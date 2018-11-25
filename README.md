@@ -1,5 +1,5 @@
 # Compiling The Provider
-### [More details about the provider](https://github.com/akamai/terraform-provider-akamai "terraform-provider-akamai" target="_blank")
+### [More details about the provider](https://github.com/akamai/terraform-provider-akamai)
 ## Prerequisite
 
 - Inastall [Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
