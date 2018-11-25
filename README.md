@@ -32,4 +32,5 @@ terraform init -plugin-dir=$GOPATH/bin
 ## The compiled plugin is on 
 ```
 ls $GOPATH/bin
+dep  terraform-provider-akamai
 ```
