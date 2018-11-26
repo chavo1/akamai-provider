@@ -1,5 +1,12 @@
 # Compiling The Provider
 ### [More details about the provider](https://github.com/akamai/terraform-provider-akamai)
+
+## The compiled plugin is on following directory
+```
+terraform.d/plugins/linux_amd64/
+```
+## If you need to compile a new one just follow the guide:
+
 ## Prerequisite
 
 - Inastall [Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
@@ -29,8 +36,4 @@ make build
 cd ~/go/src/github.com/akamai/terraform-provider-akamai/examples/akamai_fastdns_zone/add-records
 terraform init -plugin-dir=$GOPATH/bin
 ```
-## The compiled plugin is on 
-```
-ls $GOPATH/bin
-dep  terraform-provider-akamai
-```
+
